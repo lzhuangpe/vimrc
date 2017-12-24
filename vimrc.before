@@ -1,0 +1,27 @@
+" ========================================
+" 键位相关
+" ========================================
+
+" 修改 leader 键
+let mapleader = ","
+let g:mapleader = ","
+
+" 配置退格键，以使它真正生效
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
+" 关闭方向键, 强迫自己用 hjkl
+map <Left> <Nop>
+map <Right> <Nop>
+map <Up> <Nop>
+map <Down> <Nop>
+
+"se swap之后，同物理行上线直接跳
+nnoremap k gk
+nnoremap gk k
+nnoremap j gj
+nnoremap gj j
+
+" 将 0 映射到第一个非空白字符
+map 0 ^
+
