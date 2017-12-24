@@ -89,7 +89,7 @@ set guioptions-=m
 set guioptions-=T
 
 " ÉèÖÃ×ÖÌå
-set guifont=YaHei_Consolas_Hybrid:h12
+set guifont=YaHei_Consolas_Hybrid:h11
 
 
 " ========================================
